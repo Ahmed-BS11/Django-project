@@ -1,0 +1,39 @@
+bech ta3mel projet jdid
+==> python startproject project_name
+bech ta3mel app jdida
+==>python manage.py startapp app_name
+bech trunni el server
+==>python manage.py runserver
+
+manage py mayetmasech
+
+wsgi.py == web server mta3 django
+
+url.py===>url list / store urls
+
+settings.py howa li bech ne5dmou 3lih
+
+fi west el app li 3malneha
+==>models.py ==> win bech nebniw el database mte3na
+==>views ==>the function / classes
+===================> ba3d ma na3mlou el creation mta3 el application nzidouha fil settings
+mta3 el project fi installes_Apps
+
+fil urls pattern n7ottou les path mta3 les pages mte3na w les fonctions mte3hom
+
+fil urls mta3 el projet n7ottou include lel urls mta3 el apps mte3na
+w fil kol urls mta3 apps na3tiw path w esm el funcyion li bech traja3ha elli homa
+mawjoudin fil views
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+{% include 'accounts/navbar.html'%}
+t3ayet l page wa7da o5ra lil page mte3ek
+
+{% extends 'accounts/main.html' %}
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+{% block content %}
+<p>Dashboard</p>
+{% endblock %}
+ta3mel parametrage lel code mte3ek

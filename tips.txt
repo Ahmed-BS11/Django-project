@@ -37,3 +37,30 @@ t3ayet l page wa7da o5ra lil page mte3ek
 <p>Dashboard</p>
 {% endblock %}
 ta3mel parametrage lel code mte3ek
+
+
+
+Build the default structure of the database 
+python manage.py migrate 
+par default ne5dmou 3al sqlite3 mta3 python 
+najmou nbadlou l mysql wala l postgrec
+
+
+bech tesna3 super User
+python manage.py createsuperuser
+
+
+
+models.py bech nebniw fiha les tableau mte3na elli homa jeyin bel heritage min 3and el models mta3 django
+
+
+bech tzid class lel database lazem trunni el manage.py migrate
+w 9balha lazem na3mlou  manage.py makemigrations
+
+ken na3mel hethom bark ma nrach el tableau li 3maltha 
+donc lazem nemchi lil file admin.py w nzid fih el models mte3i
+w ba3d na3mel admin.site.register(ism el model li jebtou)
+
+
+bech twali tchouf el ism fi tableau fi serveur django 
+lazem ta3mel fonction teb3a el model traja3 el ism

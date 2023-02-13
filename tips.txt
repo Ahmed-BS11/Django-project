@@ -76,4 +76,5 @@ customer=models.ForeignKey(Customer,null=True,on_delete=models.SET_NULL)
 on_delete=models.SET_NULL bech ki nfasakhou el customer el customer fil order ywalli null mayetfasakch
 
 jarabna 5demna el queries bel shell fil video 7
-barcha methodes lazem na9ra documentation mta3 django
+
+we need to see django documentation .too many methods.

@@ -58,9 +58,22 @@ bech tzid class lel database lazem trunni el manage.py migrate
 w 9balha lazem na3mlou  manage.py makemigrations
 
 ken na3mel hethom bark ma nrach el tableau li 3maltha 
-donc lazem nemchi lil file admin.py w nzid fih el models mte3i
+donc lazem nemchi lil file admin.py mta3 el app w nzid fih el models mte3i
 w ba3d na3mel admin.site.register(ism el model li jebtou)
 
 
 bech twali tchouf el ism fi tableau fi serveur django 
 lazem ta3mel fonction teb3a el model traja3 el ism
+
+fil model choices bech te5tar enti min lista static kima droplist fi html
+A7na n7adhrouha el list w ba3d n3aytoulha
+
+w dima ba3d kol changement na3mlou makemigrations w migrate
+w nsajlou fil admin.py
+
+ki bech nesta3mlou foreign key 1.n wala n.n
+customer=models.ForeignKey(Customer,null=True,on_delete=models.SET_NULL)
+on_delete=models.SET_NULL bech ki nfasakhou el customer el customer fil order ywalli null mayetfasakch
+
+jarabna 5demna el queries bel shell fil video 7
+barcha methodes lazem na9ra documentation mta3 django

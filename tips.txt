@@ -90,3 +90,7 @@ w ba3d tajem te5dem bih fil Templates
 
 bech nbadlou el url mta3 page nemchiw lel urls.py w nzidou <str:pk> wala famma barcha fazet o5rin
 pk n3adiwha parametre fel functoin mte3na fil views
+
+
+url dynamic men4ir path (django way)
+<a href="{% url 'customer' customer.id %}">

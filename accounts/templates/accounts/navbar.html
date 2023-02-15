@@ -7,14 +7,12 @@
         <img src="{% static 'images/logo.png' %}" alt="logo" width="50px" height="50px">
       </li>
      <li class="nav-item">
-        <a class="nav-link" href="#">Dashboard</a>
+        <a class="nav-link" href="{% url 'home' %}">Dashboard</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">products</a>
+        <a class="nav-link" href="{% url 'products' %}">products</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Costumer</a>
-      </li>
+      
     </ul>
       
   </div>

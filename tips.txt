@@ -86,3 +86,7 @@ temchi lel html code ta3mel {% for i in products %}
                 {% endfor %}
 w ba3d lazem fil views ta3mel query tjiblek el hajtek bih w tzidou fi west el render function
 w ba3d tajem te5dem bih fil Templates
+
+
+bech nbadlou el url mta3 page nemchiw lel urls.py w nzidou <str:pk> wala famma barcha fazet o5rin
+pk n3adiwha parametre fel functoin mte3na fil views

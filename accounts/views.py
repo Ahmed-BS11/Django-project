@@ -5,6 +5,7 @@ from django.http import HttpResponse
 def home(request):
     return render(request,'accounts/dashboard.html')
 def products(request):
-    return render(request,'accounts/products.html')
+    products=Products.objects.all()
+    return render(request,'accounts/products.html',{'listofproducts':products})
 def customer(request):
     return render(request,'accounts/customer.html')

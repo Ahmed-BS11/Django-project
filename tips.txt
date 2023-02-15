@@ -78,3 +78,11 @@ on_delete=models.SET_NULL bech ki nfasakhou el customer el customer fil order yw
 jarabna 5demna el queries bel shell fil video 7
 
 we need to see django documentation .too many methods.
+
+
+Rending DATA to Templates :
+temchi lel html code ta3mel {% for i in products %}
+                {{}}
+                {% endfor %}
+w ba3d lazem fil views ta3mel query tjiblek el hajtek bih w tzidou fi west el render function
+w ba3d tajem te5dem bih fil Templates

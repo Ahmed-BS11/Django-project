@@ -94,3 +94,12 @@ pk n3adiwha parametre fel functoin mte3na fil views
 
 url dynamic men4ir path (django way)
 <a href="{% url 'customer' customer.id %}">
+
+
+bech na3lou el creation mta3 new order lazem na3mlou fonction fil views traj3elha el page
+html li 7atina fiha el formulaire mta3 el adding
+nzidoulha el url mte3ha fil urls.py w fi dashboard n3aytoulha b dynamic url
+
+
+el formulaire bech na3mlouha b biblio min django t7adhrelna kol chay
+islha ModelForm

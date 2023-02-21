@@ -124,3 +124,13 @@ if request.method=='POST':
         if form.is_valid():
             form.save()
             return redirect('/')
+
+
+kif kif lel delete 
+na3mlouf file html jdid
+na3mlou delete order function fil views 
+nzidou el path fil urls
+tzid el dynamic url fil code html
+
+ki na3mlou el delete toul matemchich 5ater lazem 3anna csrf_token
+donc nerj3ou lel html w ba3d nzidou {% csrf_token %}

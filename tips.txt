@@ -103,3 +103,24 @@ nzidoulha el url mte3ha fil urls.py w fi dashboard n3aytoulha b dynamic url
 
 el formulaire bech na3mlouha b biblio min django t7adhrelna kol chay
 islha ModelForm
+
+redirect traja3na lil dhashboard ba3d ma 3malna el submit
+
+
+bech najmou na3mlou update nesta3mlou nafs el form mta3 create ama nzidou el pk ll parametre mta3 el function fil views
+w ba3d na3lou query njibou biha el order bil id w n7outouh !!!!!!INSTANCE
+ lil form
+
+order=Order.objects.get(id=pk)
+form = OrderForm(instance=order)
+
+
+ba3d ma n5admou el request lazem na3mloulha save
+!!!!
+if request.method=='POST':
+        #print('Printing Post',request.POST)
+        form=OrderForm(request.POST,instance=order)
+        #ken man7otech onstance =order lenna yesna3 order jdid bil parametre mta3 el update
+        if form.is_valid():
+            form.save()
+            return redirect('/')

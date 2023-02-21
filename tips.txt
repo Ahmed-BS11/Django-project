@@ -134,3 +134,19 @@ tzid el dynamic url fil code html
 
 ki na3mlou el delete toul matemchich 5ater lazem 3anna csrf_token
 donc nerj3ou lel html w ba3d nzidou {% csrf_token %}
+
+<a class="btn btn-primary btn-sm btn-block" href="{% url 'create_order' %}">Create Order</a>
+
+badalna el create order lil customer bech ywalli kol customer yesna3 el order mte3ou wa7dou
+
+
+inline forms t5allina nzidou barcha orders m3a b3adhhom
+lazem n3ayou lel 
+from django.forms import inlineformset_factory
+w fil formset na3tiwha el fields li n7ebouhom yjiw fil form
+
+fil code html lazem na3mel boucle 3liha bech tji mrigla w n3ayetou zeda lel
+{{ formset.management_form }}
+
+w fi west el form set ken n7ebouhom lkol yjiw jdod nzidou queryset
+formset=OrderFormSet(queryset=Order.objects.none(),instance=customer)
